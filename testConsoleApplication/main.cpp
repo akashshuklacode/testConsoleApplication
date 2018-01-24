@@ -1,7 +1,14 @@
-#include <cstdio>
+#include<iostream>
+using namespace std;
 
 int main()
 {
-    printf("hello from testConsoleApplication!\n");
-    return 0;
+	cout << "hello world!" << endl;
+
+	for (int iterator = 0; iterator < 5; iterator++)
+	{
+		cout << iterator << " ";
+	}
+	cout << endl;
+	return 0;
 }
